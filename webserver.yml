@@ -1,0 +1,7 @@
+---
+hosts: webservers
+sudo: yes
+gather_fact: no
+roles:
+-webserver
+
